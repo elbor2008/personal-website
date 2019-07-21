@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass-watch": "sass --watch sass:css",
+    "sass-comiple": "sass sass/style.scss css/style.css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "sass": "^1.22.7"
+  }
+}

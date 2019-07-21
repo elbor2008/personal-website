@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my profile</title>
+  <link rel="stylesheet" href="./css//bootstrap-grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="header-site">
+    <div class="header-site__wrapper d-flex justify-content-between">
+      <div class="header-site__title">
+        Nick <span class="header-site__title--initial">Nie</span>
+      </div>
+      <input type="checkbox" id="nav-chk" />
+      <div class="header-site__nav">
+        <ul>
+          <li>Home</li>
+          <li>Resume</li>
+          <li>Services</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header-mobile mobile-hidden">
+    <div class="d-flex justify-content-between">
+      <div class="header-mobile__title">
+        Nick Nie
+      </div>
+      <div>
+        <label for="nav-chk">
+          <i class="fa fa-bars header-mobile__navbar"></i>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="body__wrapper">
+      <div class="body__title row">
+        <div class="body__photo col-md-4">
+          <div class="body__photo-wrapper">
+            <img class="body__photo-img" src="./images/photo.png" alt="profile photo" />
+          </div>
+        </div>
+        <div class="body__profile col-md-8">
+          <h1 class="body__profile-name">Nick Nie</h1>
+          <div class="body__profile-position">Frontend-developer</div>
+          <div class="body__profile-logo">
+            <a class="body__profile-logo--round" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="body__profile-logo--round" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="body__profile-logo--round" href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="body__detail row">
+        <div class="body__detail-me col-md-6">
+          <h3 class="body__detail-aboutme">About <span>Me</span></h3>
+          <p class="body__detail-content">
+            Hello! I’m Nick Nie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper
+            sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.
+          </p>
+        </div>
+        <div class="body__detail-info col-md-6">
+          <ul>
+            <li>
+              <span class="body__detail-info--title">Age</span>
+              <span class="body__detail-info--value">29</span>
+            </li>
+            <li>
+              <span class="body__detail-info--title">Residence</span>
+              <span class="body__detail-info--value">Australia</span>
+            </li>
+            <li>
+              <span class="body__detail-info--title">Address</span>
+              <span class="body__detail-info--value">Level 3 / 57 Coronation Drive, Brisbane</span>
+            </li>
+            <li>
+              <span class="body__detail-info--title">e-mail</span>
+              <span class="body__detail-info--value">
+                <a href="mailto:sky_elbor@hotmail.com">sky_elbor@hotmail.com</span></a>
+            </li>
+            <li>
+              <span class="body__detail-info--title">Phone</span>
+              <span class="body__detail-info--value">0423962765</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    © 2019 All rights reserved. Designed by <a href="mailto:sky_elbor@hotmail.com">Nick Nie</a>
+  </div>
+  <script src="https://kit.fontawesome.com/a4e0a24fcd.js"></script>
+</body>
+</html>
