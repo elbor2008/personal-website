@@ -8,7 +8,6 @@
     "sass-comiple": "sass sass/style.scss css/style.css"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "sass": "^1.22.7"
   }
 }
